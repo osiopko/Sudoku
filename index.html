@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sudoku</title>
+  <link rel="stylesheet" href="./main.css">
+</head>
+<body>
+  
+  <h1>Sudoku</h1>
+
+  <h2 id="finalResult" class ="finalResult"></h2>
+
+  <section class="functions">
+  <button id="startNew">new game</button>
+  <button id ="restart">restart</button> 
+  <!-- <button id="getHint">get hint</button>
+  <button>notes (on/off)</button> -->
+
+  </section>
+
+  <section class="playSection">
+  <div id="playLeftSide" class="playLeftSide"></div>
+
+  <!-- <div id = "prepopulated-numbers"> -->
+    <!-- <label for="quantity">Quantity:</label> -->
+     <!-- <input type="number" id="quantity" name="quantity" min="0" max="9" readonly value = "1"> 
+     <input type="number" id="quantity" name="quantity" min="0" max="9" readonly value = "9">  -->
+    <!-- foralready defined numbers -->
+    
+    <!-- </div> -->
+
+    <div class="rightside">
+      <div class="playRightSide"></div>
+      
+      <div id="errors" class="errors">Errors: 0/3 </div>
+      <div id="gameresult" class="gameresult"></div>
+    </div>
+
+
+    
+  </section>
+
+   <input type="text"> 
+
+  <script src="./app.js"></script>
+</body>
+</html>

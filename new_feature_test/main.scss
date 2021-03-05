@@ -1,0 +1,27 @@
+table {
+overflow: hidden;
+}
+
+td, th {
+  padding: 10px;
+  position: relative;
+  outline: 0;
+}
+
+body:not(.nohover) tbody tr:hover {
+  background-color: #ffa;
+}
+.myTest{
+display: grid;
+grid-template-columns: 1fr 1fr;
+}
+
+.myTest div {
+  border: 2px solid black;
+  width: 50px;
+  height: 50px;
+}
+
+.myTest div:hover {
+background-color: #ffa;
+}
